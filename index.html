@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Image Slider</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/src/output.css">
+</head>
+<body>
+    <div class="slider" id="slider">
+        
+        <!-- slides -->
+        <div class="slides" id="slides">
+            <img src="/images/sea_image.jpg" alt="sea beach">
+            <img src="/images/hill_image2.jpg" alt="hill">
+            <img src="/images/last_image.jpg" alt="dog">
+            <img src="/images/alone_image4.jpg" alt="a person in hill">
+        </div>
+
+        <!-- previous and next button -->
+         <button class="btn prev" onclick="prevSlide()">&lt;</button>
+         <button class="btn next" onclick="nextSlide()" >&gt;</button>
+
+         <div class="dots" id="dots"></div>
+        <!-- counter -->
+         <p class="counter" id="counter"></p>
+
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
